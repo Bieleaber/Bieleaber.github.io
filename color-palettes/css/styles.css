@@ -1,9 +1,9 @@
 #p1head {
     text-align: center;
-    font-family: cursive;
+    font-family: monospace;
 }
 .p1div {
-    font-family: cursive;
+    font-family: monospace;
     text-align: center;
     padding: 24px;
 }
@@ -46,10 +46,10 @@
 }
 #p3head {
     text-align: center;
-    font-family: cursive;
+    font-family: sans-serif;
 }
 .p3div {
-    font-family: cursive;
+    font-family: sans-serif;
     text-align: center;
     padding: 24px;
 }
