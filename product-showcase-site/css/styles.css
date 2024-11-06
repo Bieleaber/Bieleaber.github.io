@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+#s1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;   
+}
+#s1-h1 {
+    color: goldenrod;
+}
+#p1 {
+    color: red;
+}
+#s2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;   
+}
+#s2-h2{
+    color: lightblue;
+}
+#p2 {
+    color: gold;
+}
+#s3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;   
+}
+#s3-h3{
+    color: lightpink;
+}
+#p3 {
+    color: purple;
+}
