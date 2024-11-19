@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+div#hero-2 {
+    background-image: url("../images/seaflooor.jpg");
+    background-size: cover;
+    background-position: center right;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 60px;
+    h2 {
+        font-size: 72px;
+        margin-bottom: 36px;
+    }
+    }
+    .cropped-grid-gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 200px;
+        gap: 24px;
+        padding: 24px;
+        border: 10px solid gray;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
