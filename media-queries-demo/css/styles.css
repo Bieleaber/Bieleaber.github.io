@@ -91,17 +91,21 @@ body {
     body {
         background-color: skyblue;
     }
-}.content-containerh1 {
-    font-size: 32px;
-}.intro{
-    gap: 24px;
-}.image-container{
-    height: 300px;
-}.grid{
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "txt1 img1""img2 img2""img3img3""img4 txt2";
-}
+    .content-containerh1 {
+        font-size: 32px;
+    }
+    .intro{
+        gap: 24px;
+    }
 
+    .image-container{
+        height: 300px;
+    }
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "txt1 img1""img2 img2""img3img3""img4 txt2";
+    }
+}
 @media  screen and (max-width: 480px) {
     .content-containerh1 {
         font-size: 32px;}.intro{
