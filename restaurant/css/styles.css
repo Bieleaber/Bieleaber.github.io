@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.contain {
+    width: 80vw;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+#navbar {
+    background: #F79410;
+    position: sticky;
+    top: 0px;
+    .contain {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        padding: 24px;
+    }
+    img {
+        width: 200px;
+    }
+    #logo {
+        margin-right: auto;
+    }
+}
+#hero-2 {
+    background-image: url(../images/lemmonhero.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+    .hero-content {
+        position: absolute;
+        top: 10%;
+        left: 15%;
+    } 
+    a  {
+        font-size: 24px;
+        display: inline-block;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        padding: 24px;
+        margin-top: 36px;
+    
+    }
+}
+
+
+
+  
