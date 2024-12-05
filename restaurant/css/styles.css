@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Delius+Swash+Caps&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     box-sizing: border-box;
 }
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'delius swash caps', static;
+}
+#navbar {
+    font-family: 'chewy', static;
+}
+#footer {
+    font-family: 'chewy', static;
 }
 .contain {
     width: 80vw;
@@ -53,6 +60,100 @@ body {
     
     }
 }
+#vegan {
+    width: 500px;
+}
+#footer {
+    background: #F79410;
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+    Layout setup and configuration
+*/
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
+.single-column {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    background-color: whitesmoke;
+    color: #00a651;
+    padding: 48px;
+}
+
+/*
+    Here we make our .card-container into a flexbox
+    and tell it to space out the flex items using
+    justify content with space-between.
+
+    If you'd rather the card be centered, you could
+    always change justify-content to center.
+*/
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+    The flex: 1; below makes each card equally
+    sized within the flexbox (unless the container
+    gets too small, then they may get squished).
+
+    However, if you don't want them to grow too
+    wide, you may want to consider adding a 
+    max-width property.
+*/
+.card {
+    flex: 1;
+    border: 3px solid #00a651;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+@media screen and (max-width: 480px) {
+    .contain {
+        flex-direction: column; 
+    }
+    .card-container {
+        flex-direction: column;
+    } 
+    .card {
+        padding: 0px;
+    }
+    #footer-navbar {
+        flex-direction: column;
+    }
+}
+
 
 
 
