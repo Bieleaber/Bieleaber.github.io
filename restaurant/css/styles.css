@@ -30,6 +30,7 @@ body {
         text-decoration: none;
         color: white;
         padding: 24px;
+        font-size: 50px;
     }
     img {
         width: 200px;
@@ -60,8 +61,13 @@ body {
     
     }
 }
+#main {
+    display: flex;
+}
 #vegan {
     width: 500px;
+    display: flex;
+    padding: 24px;
 }
 #footer {
     background: #F79410;
@@ -97,7 +103,7 @@ body {
 #card-section {
     background-color: whitesmoke;
     color: #00a651;
-    padding: 48px;
+    padding: 80px;
 }
 
 /*
@@ -139,6 +145,12 @@ body {
     font-size: 24px;
     margin: 24px 0px 0px;
 }
+h4 {
+    padding: 24px;
+}
+h1 {
+    padding-right: 24px;
+}
 @media screen and (max-width: 480px) {
     .contain {
         flex-direction: column; 
@@ -151,6 +163,10 @@ body {
     }
     #footer-navbar {
         flex-direction: column;
+    }
+    #main {
+        flex-direction: column;
+        padding: 24px
     }
 }
 
